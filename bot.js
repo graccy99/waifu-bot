@@ -79,11 +79,6 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                         to: channelID,
                         message: 'https://i.imgur.com/3zvzQpZ.png'
                     });
-                } else if (x == 10) {
-                    bot.sendMessage({
-                        to: channelID,
-                        message: 'https://myanimelist.cdn-dena.com/images/characters/15/266029.jpg'
-                    });
                 }
             break;
             // Just add any case commands if you want to..
