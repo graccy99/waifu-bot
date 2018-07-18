@@ -82,7 +82,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 } else if (x == 10) {
                     bot.sendMessage({
                         to: channelID,
-                        message: 'https://myanimelist.cdn-dena.com/images/characters/15/266029.jpg
+                        message: 'https://myanimelist.cdn-dena.com/images/characters/15/266029.jpg'
                     });
                 }
             break;
